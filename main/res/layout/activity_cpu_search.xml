@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CpuSearchActivity">
+
+
+    <RadioGroup
+        android:id="@+id/cpu_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="15dp">
+
+        <RadioButton
+            android:id="@+id/cpu_option_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:text="AMD Ryzen 5 2600"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/description1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="45dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginBottom="10dp"
+            android:text="3.4 GHz | 6 Core | $164.39"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/cpu_option_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AMD Ryzen 7 2700X"
+            android:textSize="24sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:id="@+id/description2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="45dp"
+            android:layout_marginLeft="45dp"
+            android:text="3.7 GHz | 8 Core | $292.89"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/cpu_option_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Intel Core i9-9900k"
+            android:textSize="24sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:id="@+id/description3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="45dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginBottom="10dp"
+            android:text="3.6 GHz | 8 Core | $474.99"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/cpu_option_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AMD Ryzen 5 2600X"
+            android:textSize="24sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:id="@+id/description4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="45dp"
+            android:layout_marginLeft="45dp"
+            android:text="3.6 GHz | 6 Core | $179.99"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/cpu_option_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Intel Core i5-9600K"
+            android:textSize="24sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:id="@+id/description5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="45dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginBottom="10dp"
+            android:text="3.7 GHz | 6 Core | $259.99"
+            android:textSize="20sp" />
+
+    </RadioGroup>
+</ScrollView>

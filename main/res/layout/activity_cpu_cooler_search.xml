@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CpuCoolerSearch">
+
+    <RadioGroup
+        android:id="@+id/cooler_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="15dp">
+
+        <RadioButton
+            android:id="@+id/cooler_option_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Cooler Master Hyper 212 EVO"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/cooler_description_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="45dp"
+            android:layout_marginLeft="45dp"
+            android:text="600 - 2000 RPM | $24.89"
+            android:textSize="20sp"
+            android:layout_marginBottom="15dp"/>
+
+        <RadioButton
+            android:id="@+id/cooler_option_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Corsair H100i PRO"
+            android:textSize="24sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp" />
+
+        <TextView
+            android:id="@+id/cooler_description_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="45dp"
+            android:layout_marginLeft="45dp"
+            android:text="2400 RPM | $109.89"
+            android:textSize="20sp"
+            android:layout_marginBottom="15dp"/>
+
+        <RadioButton
+            android:id="@+id/cooler_option_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cooler Master MasterLiquid ML240L RGB"
+            android:textSize="24sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"/>
+
+        <TextView
+            android:id="@+id/cooler_description_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="45dp"
+            android:layout_marginLeft="45dp"
+            android:text="650 - 2000 RPM | $69.89"
+            android:textSize="20sp"
+            android:layout_marginBottom="15dp"/>
+
+        <RadioButton
+            android:id="@+id/cooler_option_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cooler Master Hyper 212 RGB Black Edition"
+            android:textSize="24sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"/>
+
+        <TextView
+            android:id="@+id/cooler_description_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="45dp"
+            android:layout_marginLeft="45dp"
+            android:text="650 - 2000 RPM | $36.99"
+            android:textSize="20sp"
+            android:layout_marginBottom="15dp"/>
+
+        <RadioButton
+            android:id="@+id/cooler_option_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cooler Master Hyper 212 RGB Black Edition"
+            android:textSize="24sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp" />
+
+        <TextView
+            android:id="@+id/cooler_description_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="45dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginBottom="15dp"
+            android:text="500 - 1800 RPM | $149.99"
+            android:textSize="20sp" />
+
+    </RadioGroup>
+</ScrollView>
